@@ -1,0 +1,266 @@
+TCalc
+v7
+r0
+t329849432.638026
+cCheck dependencies
+cProcessInfoPlistFile /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Info.plist Calc-Info.plist
+cCompileXIB /Users/eugene/Documents/Calc/MainWindow.xib
+cCompileXIB /Users/eugene/Documents/Calc/Classes/Calc.xib
+cCpResource build/Debug-iphonesimulator/Calc.app/button_bkg.png ../../button_bkg.png
+cProcessPCH /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch.gch Calc_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/main.o /Users/eugene/Documents/Calc/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/CalcAppDelegate.o /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/Calc.o /Users/eugene/Documents/Calc/Classes/Calc.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D5417DE0000000000000110
+t1297356766
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/eugene/Documents/Calc/../../button_bkg.png
+c000000004DF8D4C40000000000000B04
+t1308153028
+s2820
+
+N/Users/eugene/Documents/Calc/Calc_Prefix.pch
+c000000004DF8BD1300000000000000B1
+t1308146963
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/Classes/Calc.h
+c000000004DF8BEA2000000000000019F
+t1308147362
+s415
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/Classes/Calc.m
+c000000004DF8BDAB0000000000000582
+t1308147115
+s1410
+i"Calc.h"
+
+N/Users/eugene/Documents/Calc/Classes/Calc.xib
+c000000004DF8E277000000000000A449
+t1308156535
+s42057
+
+N/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.h
+c000000004DF8BD130000000000000141
+t1308146963
+s321
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m
+c000000004DF8BD1300000000000009C5
+t1308146963
+s2501
+i"CalcAppDelegate.h"
+
+N/Users/eugene/Documents/Calc/MainWindow.xib
+c000000004DF8BD1300000000000020F9
+t1308146963
+s8441
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/Calc.LinkFileList
+c000000004DF8E2D20000000000000149
+t1308156626
+s329
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/Calc.o
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/CalcAppDelegate.o
+t1308156632
+s49136
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/main.o
+t1308156632
+s6284
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app.dSYM
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Calc
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Calc.nib
+t1308156630
+s3596
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Info.plist
+t1308156626
+s579
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/MainWindow.nib
+t1308156630
+s981
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/PkgInfo
+t1308156626
+s8
+
+N/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/button_bkg.png
+t1308156630
+s2820
+
+N/Users/eugene/Documents/Calc/main.m
+c000000004DF8BD130000000000000169
+t1308146963
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch.gch
+t1308156632
+s15453392
+
+NCalc-Info.plist
+c000000004DF8BD13000000000000038D
+t1308146963
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329849426#329849426#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/Calc.o /Users/eugene/Documents/Calc/Classes/Calc.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329849432.576111
+e329849432.637737
+r0
+xCompileC
+xbuild/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/Calc.o
+x/Users/eugene/Documents/Calc/Classes/Calc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/eugene/Documents/Calc/Classes/Calc.m:9:
+o/Users/eugene/Documents/Calc/Classes/Calc.h:13: error: 'result' undeclared here (not in a function)
+o/Users/eugene/Documents/Calc/Classes/Calc.h:13: error: bit-field '<anonymous>' width not an integer constant
+o/Users/eugene/Documents/Calc/Classes/Calc.h:13: error: bit-field '<anonymous>' has invalid type
+o/Users/eugene/Documents/Calc/Classes/Calc.h:14: error: 'currentNumber' undeclared here (not in a function)
+o/Users/eugene/Documents/Calc/Classes/Calc.h:14: error: bit-field '<anonymous>' width not an integer constant
+o/Users/eugene/Documents/Calc/Classes/Calc.h:14: error: bit-field '<anonymous>' has invalid type
+o/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: incomplete implementation of class 'Calc'
+o/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-cancelOperation' not found
+o/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-cancelInput' not found
+o/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-buttonAddPressed:' not found
+o/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-buttonDigitPressed:' not found
+lSLF07#2@51"Compile /Users/eugene/Documents/Calc/Classes/Calc.m329849432#329849432#0(1219"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m:9:/Users/eugene/Documents/Calc/Classes/Calc.h:13: error: 'result' undeclared here (not in a function)/Users/eugene/Documents/Calc/Classes/Calc.h:13: error: bit-field '<anonymous>' width not an integer constant/Users/eugene/Documents/Calc/Classes/Calc.h:13: error: bit-field '<anonymous>' has invalid type/Users/eugene/Documents/Calc/Classes/Calc.h:14: error: 'currentNumber' undeclared here (not in a function)/Users/eugene/Documents/Calc/Classes/Calc.h:14: error: bit-field '<anonymous>' width not an integer constant/Users/eugene/Documents/Calc/Classes/Calc.h:14: error: bit-field '<anonymous>' has invalid type/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: incomplete implementation of class 'Calc'/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-cancelOperation' not found/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-cancelInput' not found/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-buttonAddPressed:' not found/Users/eugene/Documents/Calc/Classes/Calc.m:59: warning: method definition for '-buttonDigitPressed:' not found11(4@44"'result' undeclared here (not in a function)329849432#69#100#2(7@65"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#9#0#9#0#0"0(13@91"'result' undeclared here (not in a function) in /Users/eugene/Documents/Calc/Classes/Calc.h329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#13#0#13#0#0"0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#13#0#13#0#39"'*' undeclared here (not in a function)0(4@53"Bit-field '<anonymous>' width not an integer constant329849432#169#109#2(7@65"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#9#0#9#0#0"0(13@100"Bit-field '<anonymous>' width not an integer constant in /Users/eugene/Documents/Calc/Classes/Calc.h329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#13#0#13#0#0"0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#13#0#13#0#0"0(4@40"Bit-field '<anonymous>' has invalid type329849432#278#96#2(7@65"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#9#0#9#0#0"0(13@87"Bit-field '<anonymous>' has invalid type in /Users/eugene/Documents/Calc/Classes/Calc.h329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#13#0#13#0#0"0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#13#0#13#0#0"0(4@51"'currentNumber' undeclared here (not in a function)329849432#374#107#2(7@65"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#9#0#9#0#0"0(13@98"'currentNumber' undeclared here (not in a function) in /Users/eugene/Documents/Calc/Classes/Calc.h329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#14#0#14#0#0"0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#14#0#14#0#39"'*' undeclared here (not in a function)0(4@53"Bit-field '<anonymous>' width not an integer constant329849432#481#109#2(7@65"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#9#0#9#0#0"0(13@100"Bit-field '<anonymous>' width not an integer constant in /Users/eugene/Documents/Calc/Classes/Calc.h329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#14#0#14#0#0"0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#14#0#14#0#0"0(4@40"Bit-field '<anonymous>' has invalid type329849432#590#96#2(7@65"In file included from /Users/eugene/Documents/Calc/Classes/Calc.m329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#9#0#9#0#0"0(13@87"Bit-field '<anonymous>' has invalid type in /Users/eugene/Documents/Calc/Classes/Calc.h329849432#18446744073709551615#0#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#14#0#14#0#0"0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.h329840162#14#0#14#0#0"0(22@41"Incomplete implementation of class 'Calc'329849432#686#99#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#59#0#59#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-cancelOperation' not found329849432#785#108#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#59#0#59#0#35"method definition for '*' not found0(22@46"Method definition for '-cancelInput' not found329849432#893#104#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#59#0#59#0#35"method definition for '*' not found0(22@52"Method definition for '-buttonAddPressed:' not found329849432#997#110#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#59#0#59#0#35"method definition for '*' not found0(22@54"Method definition for '-buttonDigitPressed:' not found329849432#1107#112#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m329839915#59#0#59#0#35"method definition for '*' not found0(0#0#43"/Users/eugene/Documents/Calc/Classes/Calc.m8611484128#1752"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphonesimulator -I/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources/i386 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/Calc.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/Calc.o1#
+
+CCompileC build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/CalcAppDelegate.o /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329849432.403235
+e329849432.601727
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/CalcAppDelegate.o
+x/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m329849432#329849432#0(0"0(0#0#54"/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m8611437344#1774"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphonesimulator -I/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources/i386 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/CalcAppDelegate.o0#
+
+CCompileC build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/main.o /Users/eugene/Documents/Calc/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329849432.385430
+e329849432.575999
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/main.o
+x/Users/eugene/Documents/Calc/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/eugene/Documents/Calc/main.m329849432#329849432#0(0"0(0#0#35"/Users/eugene/Documents/Calc/main.m8612358272#1744"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphonesimulator -I/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources/i386 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/main.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/eugene/Documents/Calc/Classes/Calc.xib
+s329849426.547477
+e329849430.571960
+r1
+xCompileXIB
+x/Users/eugene/Documents/Calc/Classes/Calc.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@27"CompileXIB Classes/Calc.xib329849426#329849430#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#45"/Users/eugene/Documents/Calc/Classes/Calc.xib8601364800#533"    cd /Users/eugene/Documents/Calc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Calc.nib /Users/eugene/Documents/Calc/Classes/Calc.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/eugene/Documents/Calc/MainWindow.xib
+s329849426.514615
+e329849430.451818
+r1
+xCompileXIB
+x/Users/eugene/Documents/Calc/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329849426#329849430#0(0"0(0#0#43"/Users/eugene/Documents/Calc/MainWindow.xib8605784992#537"    cd /Users/eugene/Documents/Calc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/MainWindow.nib /Users/eugene/Documents/Calc/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Calc.app/button_bkg.png ../../button_bkg.png
+s329849430.452098
+e329849430.530822
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Calc.app/button_bkg.png
+x../../button_bkg.png
+lSLF07#2@25"Copy ../../button_bkg.png329849430#329849430#0(0"0(0#0#49"/Users/eugene/Documents/Calc/../../button_bkg.png8611328992#445"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/eugene/Documents/Calc/../../button_bkg.png /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app0#
+
+CGenerateDSYMFile /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app.dSYM /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Calc
+r0
+
+CLd /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Calc normal i386
+r0
+
+CProcessInfoPlistFile /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Info.plist Calc-Info.plist
+s329849426.442999
+e329849426.514509
+r1
+xProcessInfoPlistFile
+x/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Info.plist
+xCalc-Info.plist
+lSLF07#2@23"Process Calc-Info.plist329849426#329849426#0(0"0(0#0#44"/Users/eugene/Documents/Calc/Calc-Info.plist31244220637446252#440"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Calc-Info.plist -genpkginfo /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app/Info.plist0#
+
+CProcessPCH /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch.gch Calc_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329849430.572134
+e329849432.385061
+r1
+xProcessPCH
+x/var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch.gch
+xCalc_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Calc_Prefix.pch329849430#329849432#0(0"0(0#0#44"/Users/eugene/Documents/Calc/Calc_Prefix.pch8610950016#1649"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphonesimulator -I/Users/eugene/Documents/Calc/build/Debug-iphonesimulator/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources/i386 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphonesimulator/Calc.build/DerivedSources -c /Users/eugene/Documents/Calc/Calc_Prefix.pch -o /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-eqvogtdcrpntxqfqtryiogwxvtej/Calc_Prefix.pch.gch0#
+
+CTouch /Users/eugene/Documents/Calc/build/Debug-iphonesimulator/Calc.app
+r0
+

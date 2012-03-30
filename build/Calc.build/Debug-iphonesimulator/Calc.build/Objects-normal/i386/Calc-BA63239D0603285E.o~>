@@ -1,0 +1,2 @@
+/Users/eugene/Documents/Calc/Classes/Calc.m: In function '-[Calc pickerView:didSelectRow:inComponent:]':
+/Users/eugene/Documents/Calc/Classes/Calc.m:165: warning: local declaration of 'pickerView' hides instance variable

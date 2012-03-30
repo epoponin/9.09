@@ -1,0 +1,2 @@
+/Users/eugene/Documents/Calc/Classes/Calc.m: In function '-[Calc buttonDigitPressed:]':
+/Users/eugene/Documents/Calc/Classes/Calc.m:69: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast

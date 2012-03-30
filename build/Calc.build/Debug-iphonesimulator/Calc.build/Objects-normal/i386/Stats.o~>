@@ -1,0 +1,3 @@
+/Users/eugene/Documents/Calc/Stats.m:14: warning: cannot find interface declaration for 'Stats'
+/Users/eugene/Documents/Calc/Stats.m:14: error: no declaration of property 'sum' found in the interface
+/Users/eugene/Documents/Calc/Stats.m:15: error: no declaration of property 'category' found in the interface

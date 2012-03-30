@@ -1,0 +1,969 @@
+TCalc
+v7
+r0
+t335462014.454459
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Calc.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Info.plist Calc-Info.plist
+cCompileXIB /Users/eugene/Documents/Calc/MainWindow.xib
+cCompileXIB /Users/eugene/Documents/Calc/Classes/Calc.xib
+cCpResource build/Debug-iphoneos/Calc.app/digital-7.ttf ../../Downloads/digital_7/digital-7.ttf
+cCompileXIB /Users/eugene/Documents/Calc/Classes/Diagram.xib
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button.png button.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/view_bkg.png view_bkg.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_cancel.png button_cancel.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/number_screen.png number_screen.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_diagram.png button_diagram.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_check.png button_check.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_calc.png button_calc.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_plus.png button_plus.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_transport.png category_transport.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_fun.png category_fun.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_food.png category_food.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_selector.png category_selector.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_misc.png category_misc.png
+cCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_house.png category_house.png
+cProcessPCH /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch.gch Calc_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch.gch Calc_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.mom /Users/eugene/Documents/Calc/Calc.xcdatamodel
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/main.o /Users/eugene/Documents/Calc/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/CalcAppDelegate.o /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc-BA63239D0603285E.o /Users/eugene/Documents/Calc/Classes/Calc.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Diagram.o /Users/eugene/Documents/Calc/Classes/Diagram.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/PieClassAntiAlias.o /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/DB.o /Users/eugene/Documents/Calc/Classes/DB.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/main.o /Users/eugene/Documents/Calc/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/CalcAppDelegate.o /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc-BA63239D0603285E.o /Users/eugene/Documents/Calc/Classes/Calc.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Diagram.o /Users/eugene/Documents/Calc/Classes/Diagram.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc normal armv6
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/PieClassAntiAlias.o /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/DB.o /Users/eugene/Documents/Calc/Classes/DB.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc normal armv7
+cCreateUniversalBinary /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc normal "armv6 armv7"
+cGenerateDSYMFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app.dSYM /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc
+cProcessProductPackaging "/Users/eugene/Library/MobileDevice/Provisioning Profiles/F6C98F00-4F77-430A-B8BD-F89BE916BB40.mobileprovision" /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/embedded.mobileprovision
+cTouch /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent
+cCodeSign /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC10AB400000000000CE100
+t1287719604
+s844032
+
+N/Users/eugene/Documents/Calc/../../Downloads/digital_7/digital-7.ttf
+c000000004D89BABE0000000000008638
+t1300871870
+s34360
+
+N/Users/eugene/Documents/Calc/../../button_bkg.png
+c000000004DF8D4C40000000000000B04
+t1308153028
+s2820
+
+N/Users/eugene/Documents/Calc/Calc.xcdatamodel
+c000000004DFA36980000000000000088
+t1308243608
+s136
+
+N/Users/eugene/Documents/Calc/Calc_Prefix.pch
+c000000004DF8BD1300000000000000B1
+t1308146963
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/Classes/../Stats.m
+c000000004DFA34B800000000000000D9
+t1308243128
+s217
+i"Stats.h"
+
+N/Users/eugene/Documents/Calc/Classes/Calc.h
+c000000004E00C9690000000000000316
+t1308674409
+s790
+i<UIKit/UIKit.h>
+i"Diagram.h"
+i"DB.h"
+
+N/Users/eugene/Documents/Calc/Classes/Calc.m
+c000000004E018CDA00000000000012D8
+t1308724442
+s4824
+i"Calc.h"
+
+N/Users/eugene/Documents/Calc/Classes/Calc.xib
+c000000004DFDA04A000000000000F8D7
+t1308467274
+s63703
+
+N/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.h
+c000000004DFC966900000000000001AC
+t1308399209
+s428
+i<UIKit/UIKit.h>
+i"Calc.h"
+i<CoreData/CoreData.h>
+
+N/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m
+c000000004DFC965E0000000000000AFC
+t1308399198
+s2812
+i"CalcAppDelegate.h"
+
+N/Users/eugene/Documents/Calc/Classes/DB.h
+c000000004E018BD9000000000000019C
+t1308724185
+s412
+i<Foundation/Foundation.h>
+i"/usr/include/sqlite3.h"
+
+N/Users/eugene/Documents/Calc/Classes/DB.m
+c000000004E018FAF0000000000000C86
+t1308725167
+s3206
+i"DB.h"
+
+N/Users/eugene/Documents/Calc/Classes/Diagram.h
+c000000004E018CEA000000000000019E
+t1308724458
+s414
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/Classes/Diagram.m
+c000000004E0192070000000000000C1B
+t1308725767
+s3099
+i<QuartzCore/QuartzCore.h>
+i"Diagram.h"
+i"PieClassAntiAlias.h"
+i"DB.h"
+
+N/Users/eugene/Documents/Calc/Classes/Diagram.xib
+c000000004E01919A0000000000009C9E
+t1308725658
+s40094
+
+N/Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.h
+c000000004DFC93D70000000000000209
+t1308398551
+s521
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m
+c000000004DFC93C10000000000000798
+t1308398529
+s1944
+i"PieClassAntiAlias.h"
+
+N/Users/eugene/Documents/Calc/MainWindow.xib
+c000000004DFAF8E90000000000004637
+t1308293353
+s17975
+
+N/Users/eugene/Documents/Calc/Stats.h
+c000000004DFA34BE000000000000013A
+t1308243134
+s314
+i<CoreData/CoreData.h>
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent
+t1313769211
+s621
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc
+t1313769211
+s38232
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc-BA63239D0603285E.o
+t1313769211
+s53760
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc.LinkFileList
+c000000004E4E86F80000000000000282
+t1313769208
+s642
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/CalcAppDelegate.o
+t1313769211
+s53372
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/DB.o
+t1313769211
+s15636
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Diagram.o
+t1313769211
+s47936
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/PieClassAntiAlias.o
+t1313769211
+s45144
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Stats.o
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/main.o
+t1313769211
+s6428
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc
+t1313769211
+s37716
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc-BA63239D0603285E.o
+t1313769211
+s52924
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc.LinkFileList
+c000000004E4E86F80000000000000282
+t1313769208
+s642
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/CalcAppDelegate.o
+t1313769211
+s53300
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/DB.o
+t1313769211
+s15320
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Diagram.o
+t1313769211
+s47200
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/PieClassAntiAlias.o
+t1313769211
+s44312
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Stats.o
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/main.o
+t1313769211
+s6412
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+t1313769214
+s952
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app.dSYM
+t1313769211
+s102
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc
+t1313769211
+s93104
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.mom
+t1313769211
+s1323
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.nib
+t1313769209
+s6173
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Diagram.nib
+t1313769209
+s3444
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Info.plist
+t1313769208
+s809
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/MainWindow.nib
+t1313769209
+s981
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/PkgInfo
+t1313769208
+s8
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/ResourceRules.plist
+t1313769208
+s485
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button.png
+t1313769209
+s1811
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_bkg.png
+t2
+s0
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_calc.png
+t1313769209
+s2398
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_cancel.png
+t1313769209
+s2476
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_check.png
+t1313769209
+s1668
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_diagram.png
+t1313769209
+s2410
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_plus.png
+t1313769209
+s2420
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_food.png
+t1313769209
+s2784
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_fun.png
+t1313769209
+s3457
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_house.png
+t1313769209
+s1645
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_misc.png
+t1313769209
+s2066
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_selector.png
+t1313769209
+s1177
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_transport.png
+t1313769209
+s2351
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/digital-7.ttf
+t1313769208
+s34360
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/embedded.mobileprovision
+t1313769211
+s7610
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/number_screen.png
+t1313769209
+s3358
+
+N/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/view_bkg.png
+t1313769210
+s122741
+
+N/Users/eugene/Documents/Calc/button.png
+c000000004DFAE1FB00000000000005B0
+t1308287483
+s1456
+
+N/Users/eugene/Documents/Calc/button_calc.png
+c000000004DFAFE4D00000000000008D3
+t1308294733
+s2259
+
+N/Users/eugene/Documents/Calc/button_cancel.png
+c000000004DFAE92E0000000000000869
+t1308289326
+s2153
+
+N/Users/eugene/Documents/Calc/button_check.png
+c000000004DFAFD200000000000000656
+t1308294432
+s1622
+
+N/Users/eugene/Documents/Calc/button_diagram.png
+c000000004DFAFE1800000000000008F3
+t1308294680
+s2291
+
+N/Users/eugene/Documents/Calc/button_plus.png
+c000000004DFAFD460000000000000939
+t1308294470
+s2361
+
+N/Users/eugene/Documents/Calc/category_food.png
+c000000004DFB0332000000000000096E
+t1308295986
+s2414
+
+N/Users/eugene/Documents/Calc/category_fun.png
+c000000004DFB033200000000000008EC
+t1308295986
+s2284
+
+N/Users/eugene/Documents/Calc/category_house.png
+c000000004DFB09750000000000000624
+t1308297589
+s1572
+
+N/Users/eugene/Documents/Calc/category_misc.png
+c000000004DFB03320000000000000648
+t1308295986
+s1608
+
+N/Users/eugene/Documents/Calc/category_selector.png
+c000000004DFB040500000000000004B1
+t1308296197
+s1201
+
+N/Users/eugene/Documents/Calc/category_transport.png
+c000000004DFB033200000000000007D1
+t1308295986
+s2001
+
+N/Users/eugene/Documents/Calc/main.m
+c000000004DF8BD130000000000000169
+t1308146963
+s361
+i<UIKit/UIKit.h>
+
+N/Users/eugene/Documents/Calc/number_screen.png
+c000000004DFAE9B40000000000000D1E
+t1308289460
+s3358
+
+N/Users/eugene/Documents/Calc/view_bkg.png
+c000000004DFAE50E000000000001E890
+t1308288270
+s125072
+
+N/Users/eugene/Library/MobileDevice/Provisioning Profiles/F6C98F00-4F77-430A-B8BD-F89BE916BB40.mobileprovision
+c000000004E4E85890000000000001DBA
+t1313768841
+s7610
+
+N/usr/include/sqlite3.h
+c000000004C239FC5000000000003D86F
+t1277403077
+s252015
+
+N/var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch.gch
+t1313769210
+s9983704
+
+N/var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch.gch
+t1313769211
+s10446552
+
+NCalc-Info.plist
+c000000004E4E86F700000000000003B5
+t1313769207
+s949
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335462008#335462008#0(0"0(0#1#0"8603796800#0"0#
+
+CCodeSign /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+s335462011.834299
+e335462014.454280
+r1
+xCodeSign
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Calc.app335462011#335462014#0(0"0(0#0#58"/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app8611876736#596"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Aleksey Ivankin (44DYB4B5T2)" --resource-rules=/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/ResourceRules.plist --entitlements /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc-BA63239D0603285E.o /Users/eugene/Documents/Calc/Classes/Calc.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462011.114907
+e335462011.340689
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc-BA63239D0603285E.o
+x/Users/eugene/Documents/Calc/Classes/Calc.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/eugene/Documents/Calc/Classes/Calc.m: In function '-[Calc pickerView:didSelectRow:inComponent:]':
+o/Users/eugene/Documents/Calc/Classes/Calc.m:165: warning: local declaration of 'pickerView' hides instance variable
+lSLF07#2@51"Compile /Users/eugene/Documents/Calc/Classes/Calc.m335462011#335462011#0(221"/Users/eugene/Documents/Calc/Classes/Calc.m: In function '-[Calc pickerView:didSelectRow:inComponent:]':/Users/eugene/Documents/Calc/Classes/Calc.m:165: warning: local declaration of 'pickerView' hides instance variable1(22@57"Local declaration of 'pickerView' hides instance variable335462011#105#116#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m330417242#165#0#165#0#0"0(0#0#43"/Users/eugene/Documents/Calc/Classes/Calc.m8611879264#1579"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/Calc.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc-BA63239D0603285E.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/CalcAppDelegate.o /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462011.114075
+e335462011.308097
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/CalcAppDelegate.o
+x/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m335462011#335462011#0(0"0(0#0#54"/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m8612379712#1584"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/CalcAppDelegate.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/DB.o /Users/eugene/Documents/Calc/Classes/DB.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462011.308246
+e335462011.428616
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/DB.o
+x/Users/eugene/Documents/Calc/Classes/DB.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/eugene/Documents/Calc/Classes/DB.m335462011#335462011#0(0"0(0#0#41"/Users/eugene/Documents/Calc/Classes/DB.m8609583136#1558"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/DB.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/DB.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Diagram.o /Users/eugene/Documents/Calc/Classes/Diagram.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462011.229638
+e335462011.404409
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Diagram.o
+x/Users/eugene/Documents/Calc/Classes/Diagram.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/eugene/Documents/Calc/Classes/Diagram.m335462011#335462011#0(0"0(0#0#46"/Users/eugene/Documents/Calc/Classes/Diagram.m8611218784#1568"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/Diagram.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Diagram.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/PieClassAntiAlias.o /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462011.235351
+e335462011.396973
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/PieClassAntiAlias.o
+x/Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m335462011#335462011#0(0"0(0#0#56"/Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m8610987904#1588"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/PieClassAntiAlias.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Stats.o /Users/eugene/Documents/Calc/Classes/../Stats.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/main.o /Users/eugene/Documents/Calc/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462011.113168
+e335462011.229489
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/main.o
+x/Users/eugene/Documents/Calc/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/eugene/Documents/Calc/main.m335462011#335462011#0(0"0(0#0#35"/Users/eugene/Documents/Calc/main.m8614517376#1554"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/main.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc-BA63239D0603285E.o /Users/eugene/Documents/Calc/Classes/Calc.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462011.404569
+e335462011.543654
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc-BA63239D0603285E.o
+x/Users/eugene/Documents/Calc/Classes/Calc.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/eugene/Documents/Calc/Classes/Calc.m: In function '-[Calc pickerView:didSelectRow:inComponent:]':
+o/Users/eugene/Documents/Calc/Classes/Calc.m:165: warning: local declaration of 'pickerView' hides instance variable
+lSLF07#2@51"Compile /Users/eugene/Documents/Calc/Classes/Calc.m335462011#335462011#0(221"/Users/eugene/Documents/Calc/Classes/Calc.m: In function '-[Calc pickerView:didSelectRow:inComponent:]':/Users/eugene/Documents/Calc/Classes/Calc.m:165: warning: local declaration of 'pickerView' hides instance variable1(22@57"Local declaration of 'pickerView' hides instance variable335462011#105#116#0(6@43"/Users/eugene/Documents/Calc/Classes/Calc.m330417242#165#0#165#0#0"0(0#0#43"/Users/eugene/Documents/Calc/Classes/Calc.m8610473824#1579"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/Calc.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc-BA63239D0603285E.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/CalcAppDelegate.o /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462011.397124
+e335462011.519177
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/CalcAppDelegate.o
+x/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m335462011#335462011#0(0"0(0#0#54"/Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m8611584608#1584"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/CalcAppDelegate.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/CalcAppDelegate.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/DB.o /Users/eugene/Documents/Calc/Classes/DB.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462011.543801
+e335462011.619566
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/DB.o
+x/Users/eugene/Documents/Calc/Classes/DB.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/eugene/Documents/Calc/Classes/DB.m335462011#335462011#0(0"0(0#0#41"/Users/eugene/Documents/Calc/Classes/DB.m8615965824#1558"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/DB.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/DB.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Diagram.o /Users/eugene/Documents/Calc/Classes/Diagram.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462011.422739
+e335462011.545274
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Diagram.o
+x/Users/eugene/Documents/Calc/Classes/Diagram.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/eugene/Documents/Calc/Classes/Diagram.m335462011#335462011#0(0"0(0#0#46"/Users/eugene/Documents/Calc/Classes/Diagram.m8609335808#1568"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/Diagram.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Diagram.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/PieClassAntiAlias.o /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462011.519334
+e335462011.610974
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/PieClassAntiAlias.o
+x/Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m335462011#335462011#0(0"0(0#0#56"/Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m8599272032#1588"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/Classes/PieClassAntiAlias.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/PieClassAntiAlias.o0#
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Stats.o /Users/eugene/Documents/Calc/Classes/../Stats.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/main.o /Users/eugene/Documents/Calc/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462011.340851
+e335462011.422589
+r1
+xCompileC
+xbuild/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/main.o
+x/Users/eugene/Documents/Calc/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/eugene/Documents/Calc/main.m335462011#335462011#0(0"0(0#0#35"/Users/eugene/Documents/Calc/main.m8616710368#1554"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -include /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch -c /Users/eugene/Documents/Calc/main.m -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/eugene/Documents/Calc/Classes/Calc.xib
+s335462008.768483
+e335462009.890704
+r1
+xCompileXIB
+x/Users/eugene/Documents/Calc/Classes/Calc.xib
+lSLF07#2@27"CompileXIB Classes/Calc.xib335462008#335462009#0(0"0(0#0#45"/Users/eugene/Documents/Calc/Classes/Calc.xib8610016352#505"    cd /Users/eugene/Documents/Calc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.nib /Users/eugene/Documents/Calc/Classes/Calc.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/eugene/Documents/Calc/Classes/Diagram.xib
+s335462008.770886
+e335462009.708857
+r1
+xCompileXIB
+x/Users/eugene/Documents/Calc/Classes/Diagram.xib
+lSLF07#2@30"CompileXIB Classes/Diagram.xib335462008#335462009#0(0"0(0#0#48"/Users/eugene/Documents/Calc/Classes/Diagram.xib8609500672#511"    cd /Users/eugene/Documents/Calc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Diagram.nib /Users/eugene/Documents/Calc/Classes/Diagram.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/eugene/Documents/Calc/MainWindow.xib
+s335462008.767269
+e335462009.603379
+r1
+xCompileXIB
+x/Users/eugene/Documents/Calc/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335462008#335462009#0(0"0(0#0#43"/Users/eugene/Documents/Calc/MainWindow.xib8610355008#509"    cd /Users/eugene/Documents/Calc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/MainWindow.nib /Users/eugene/Documents/Calc/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button.png button.png
+s335462008.799564
+e335462009.128909
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button.png
+xbutton.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/Calc.app/button.png button.png335462008#335462009#0(0"0(0#0#39"/Users/eugene/Documents/Calc/button.png8615911680#527"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/button.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_bkg.png ../../button_bkg.png
+r0
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_calc.png button_calc.png
+s335462009.740197
+e335462009.785123
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_calc.png
+xbutton_calc.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Calc.app/button_calc.png button_calc.png335462009#335462009#0(0"0(0#0#44"/Users/eugene/Documents/Calc/button_calc.png8603266848#537"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/button_calc.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_calc.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_cancel.png button_cancel.png
+s335462009.603498
+e335462009.653187
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_cancel.png
+xbutton_cancel.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Calc.app/button_cancel.png button_cancel.png335462009#335462009#0(0"0(0#0#46"/Users/eugene/Documents/Calc/button_cancel.png8611768672#541"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/button_cancel.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_cancel.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_check.png button_check.png
+s335462009.708983
+e335462009.746244
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_check.png
+xbutton_check.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Calc.app/button_check.png button_check.png335462009#335462009#0(0"0(0#0#45"/Users/eugene/Documents/Calc/button_check.png8609429792#539"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/button_check.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_check.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_diagram.png button_diagram.png
+s335462009.694628
+e335462009.740064
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_diagram.png
+xbutton_diagram.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Calc.app/button_diagram.png button_diagram.png335462009#335462009#0(0"0(0#0#47"/Users/eugene/Documents/Calc/button_diagram.png8610877888#543"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/button_diagram.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_diagram.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_plus.png button_plus.png
+s335462009.746377
+e335462009.790167
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_plus.png
+xbutton_plus.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Calc.app/button_plus.png button_plus.png335462009#335462009#0(0"0(0#0#44"/Users/eugene/Documents/Calc/button_plus.png8600170656#537"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/button_plus.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/button_plus.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_food.png category_food.png
+s335462009.823333
+e335462009.865665
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_food.png
+xcategory_food.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Calc.app/category_food.png category_food.png335462009#335462009#0(0"0(0#0#46"/Users/eugene/Documents/Calc/category_food.png8609383744#541"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/category_food.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_food.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_fun.png category_fun.png
+s335462009.790298
+e335462009.833615
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_fun.png
+xcategory_fun.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Calc.app/category_fun.png category_fun.png335462009#335462009#0(0"0(0#0#45"/Users/eugene/Documents/Calc/category_fun.png8614354144#539"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/category_fun.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_fun.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_house.png category_house.png
+s335462009.865837
+e335462009.898908
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_house.png
+xcategory_house.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Calc.app/category_house.png category_house.png335462009#335462009#0(0"0(0#0#47"/Users/eugene/Documents/Calc/category_house.png8607505728#543"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/category_house.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_house.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_misc.png category_misc.png
+s335462009.861803
+e335462009.892978
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_misc.png
+xcategory_misc.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Calc.app/category_misc.png category_misc.png335462009#335462009#0(0"0(0#0#46"/Users/eugene/Documents/Calc/category_misc.png8608868288#541"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/category_misc.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_misc.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_selector.png category_selector.png
+s335462009.833786
+e335462009.861651
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_selector.png
+xcategory_selector.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/Calc.app/category_selector.png category_selector.png335462009#335462009#0(0"0(0#0#50"/Users/eugene/Documents/Calc/category_selector.png8609097056#549"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/category_selector.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_selector.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_transport.png category_transport.png
+s335462009.785289
+e335462009.823169
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_transport.png
+xcategory_transport.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/Calc.app/category_transport.png category_transport.png335462009#335462009#0(0"0(0#0#51"/Users/eugene/Documents/Calc/category_transport.png8599634752#551"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/category_transport.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/category_transport.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/number_screen.png number_screen.png
+s335462009.653424
+e335462009.694501
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/number_screen.png
+xnumber_screen.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Calc.app/number_screen.png number_screen.png335462009#335462009#0(0"0(0#0#46"/Users/eugene/Documents/Calc/number_screen.png8611175136#541"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/number_screen.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/number_screen.png0#
+
+CCopyPNGFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/view_bkg.png view_bkg.png
+s335462009.129040
+e335462010.116801
+r1
+xCopyPNGFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/view_bkg.png
+xview_bkg.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Calc.app/view_bkg.png view_bkg.png335462009#335462010#0(0"0(0#0#41"/Users/eugene/Documents/Calc/view_bkg.png8612508288#531"    cd /Users/eugene/Documents/Calc    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/eugene/Documents/Calc/view_bkg.png /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/view_bkg.png0#
+
+CCpResource build/Debug-iphoneos/Calc.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s335462008.714766
+e335462008.767113
+r1
+xCpResource
+xbuild/Debug-iphoneos/Calc.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist335462008#335462008#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8611195872#471"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app0#
+
+CCpResource build/Debug-iphoneos/Calc.app/digital-7.ttf ../../Downloads/digital_7/digital-7.ttf
+s335462008.769518
+e335462008.799430
+r1
+xCpResource
+xbuild/Debug-iphoneos/Calc.app/digital-7.ttf
+x../../Downloads/digital_7/digital-7.ttf
+lSLF07#2@44"Copy ../../Downloads/digital_7/digital-7.ttf335462008#335462008#0(0"0(0#0#68"/Users/eugene/Documents/Calc/../../Downloads/digital_7/digital-7.ttf8609690432#450"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/eugene/Documents/Calc/../../Downloads/digital_7/digital-7.ttf /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app0#
+
+CCreateUniversalBinary /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc normal "armv6 armv7"
+s335462011.715526
+e335462011.764374
+r1
+xCreateUniversalBinary
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Debug-iphoneos/Calc.app/Calc normal "armv6 armv7"335462011#335462011#0(0"0(0#0#40"/Users/eugene/Documents/Calc/armv6 armv78614488992#454"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc -output /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc0#
+
+CDataModelCompile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.mom /Users/eugene/Documents/Calc/Calc.xcdatamodel
+s335462011.112379
+e335462011.235187
+r1
+xDataModelCompile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.mom
+x/Users/eugene/Documents/Calc/Calc.xcdatamodel
+lSLF07#2@53"Compile /Users/eugene/Documents/Calc/Calc.xcdatamodel335462011#335462011#0(0"0(0#0#45"/Users/eugene/Documents/Calc/Calc.xcdatamodel8615098080#302"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/eugene/Documents/Calc/Calc.xcdatamodel /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc.mom0#
+
+CGenerateDSYMFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app.dSYM /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc
+s335462011.764475
+e335462011.798005
+r1
+xGenerateDSYMFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app.dSYM
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Calc.app.dSYM build/Debug-iphoneos/Calc.app/Calc335462011#335462011#0(0"0(0#0#63"/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc8616703392#323"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Calc -o /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app.dSYM0#
+
+CLd /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc normal armv6
+s335462011.428759
+e335462011.715418
+r1
+xLd
+x/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc
+xnormal
+xarmv6
+lSLF07#2@102"Link /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc335462011#335462011#0(0"0(0#0#0"8606531296#801"    cd /Users/eugene/Documents/Calc    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/eugene/Documents/Calc/build/Debug-iphoneos -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -filelist /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv6/Calc0#
+
+CLd /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc normal armv7
+s335462011.619676
+e335462011.714706
+r1
+xLd
+x/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc
+xnormal
+xarmv7
+lSLF07#2@102"Link /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc335462011#335462011#0(0"0(0#0#0"8615401472#801"    cd /Users/eugene/Documents/Calc    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/eugene/Documents/Calc/build/Debug-iphoneos -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -filelist /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Objects-normal/armv7/Calc0#
+
+CProcessInfoPlistFile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Info.plist Calc-Info.plist
+s335462008.715747
+e335462008.747908
+r1
+xProcessInfoPlistFile
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Info.plist
+xCalc-Info.plist
+lSLF07#2@23"Process Calc-Info.plist335462008#335462008#0(0"0(0#0#44"/Users/eugene/Documents/Calc/Calc-Info.plist8611135168#510"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Calc-Info.plist -genpkginfo /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/ResourceRules.plist -o /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/Info.plist0#
+
+CProcessPCH /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch.gch Calc_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335462010.116928
+e335462010.985078
+r1
+xProcessPCH
+x/var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch.gch
+xCalc_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Calc_Prefix.pch335462010#335462010#0(0"0(0#0#44"/Users/eugene/Documents/Calc/Calc_Prefix.pch8606873504#1465"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv6 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -c /Users/eugene/Documents/Calc/Calc_Prefix.pch -o /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-awkwminkwmbupagqltkbedciqzqr/Calc_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch.gch Calc_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335462010.117792
+e335462011.112280
+r1
+xProcessPCH
+x/var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch.gch
+xCalc_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Calc_Prefix.pch335462010#335462011#0(0"0(0#0#44"/Users/eugene/Documents/Calc/Calc_Prefix.pch8606662016#1465"    cd /Users/eugene/Documents/Calc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-generated-files.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-own-target-headers.hmap -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-all-target-headers.hmap -iquote /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc-project-headers.hmap -F/Users/eugene/Documents/Calc/build/Debug-iphoneos -I/Users/eugene/Documents/Calc/build/Debug-iphoneos/include -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources/armv7 -I/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/DerivedSources -c /Users/eugene/Documents/Calc/Calc_Prefix.pch -o /var/folders/vo/voCSvdu9HamiktwuwtdquE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calc_Prefix-bblcygfmjgmlhrajbpearciaaxxv/Calc_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/eugene/Library/MobileDevice/Provisioning Profiles/F6C98F00-4F77-430A-B8BD-F89BE916BB40.mobileprovision" /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/embedded.mobileprovision
+s335462011.798282
+e335462011.817715
+r1
+xProcessProductPackaging
+x/Users/eugene/Library/MobileDevice/Provisioning Profiles/F6C98F00-4F77-430A-B8BD-F89BE916BB40.mobileprovision
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/eugene/Library/MobileDevice/Provisioning Profiles/F6C98F00-4F77-430A-B8BD-F89BE916BB40.mobileprovision" build/Debug-iphoneos/Calc.app/embedded.mobileprovision335462011#335462011#0(0"0(0#0#83"/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/embedded.mobileprovision8615461824#401"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/eugene/Library/MobileDevice/Provisioning Profiles/F6C98F00-4F77-430A-B8BD-F89BE916BB40.mobileprovision" -o /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent
+s335462011.823239
+e335462011.834229
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent335462011#335462011#0(0"0(0#0#82"/Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent8612574592#403"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/eugene/Documents/Calc/build/Calc.build/Debug-iphoneos/Calc.build/Calc.xcent0#
+
+CTouch /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+s335462011.817814
+e335462011.823128
+r1
+xTouch
+x/Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app
+lSLF07#2@64"Touch /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app335462011#335462011#0(0"0(0#0#0"8611759200#241"    cd /Users/eugene/Documents/Calc    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/eugene/Documents/Calc/build/Debug-iphoneos/Calc.app0#
+
