@@ -1,0 +1,12 @@
+
+Calc.xcodeproj/project.xcworkspace
+Calc.xcodeproj/xcuserdata
+.DS_Store
+
+*.mode1v3
+*.pbxuser
+*.perspective 
+*.perspectivev3
+*.pyc 
+*~.nib/
+build/*

@@ -19,10 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-	
-    Calc *viewController = [[Calc alloc] initWithNibName:@"Calc" bundle:[NSBundle mainBundle]];
-	[window addSubview:[viewController view]];    
+	self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0,0,320,480)];
+    
+    Calc *calcController = [[Calc alloc] initWithNibName:@"Calc" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:calcController];
+    navController.navigationBarHidden = YES;
+    
+	self.window.rootViewController = navController;
 
     [self.window makeKeyAndVisible];
 	
